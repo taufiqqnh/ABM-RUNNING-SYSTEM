@@ -224,27 +224,6 @@
                 </div>
               </div>
 
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Rerum omnis sint</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Alias possimus</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Repellendus mollitia</h3>
-                </div>
-              </div>
-
             </div>
           </div>
 
@@ -408,9 +387,9 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                <h4>Dije Markento</h4>
+                <span>Founder</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In suscipit autem nostrum quia deserunt vero sequi totam rerum odit. Molestias vel, minima dolorem nostrum nobis aut quidem maxime dicta provident.</p>
               </div>
             </div>
           </div>
@@ -427,9 +406,9 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                <h4>Rendra Damar</h4>
+                <span>Captain</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique quia fugit, in impedit corporis consectetur voluptatibus consequuntur, ipsa nobis commodi quod perspiciatis aut ex sit perferendis dicta obcaecati debitis unde.</p>
               </div>
             </div>
           </div>
@@ -446,9 +425,9 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                <h4>Faisal Zepa</h4>
+                <span>Co-Captain</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis veritatis odio dicta nisi optio earum iusto culpa ipsam! Voluptatem accusamus similique quo id, placeat culpa quisquam assumenda sint fuga?</p>
               </div>
             </div>
           </div>
@@ -465,9 +444,9 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                <h4>Taufiq NurHidayat</h4>
+                <span>Secretary</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita porro dignissimos eos est, dolor deleniti explicabo ipsa molestias, modi tenetur nulla in maiores labore vitae impedit nostrum natus quis!.</p>
               </div>
             </div>
           </div>
