@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,7 +16,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('landingpage/home');
+    return view('landingpage.home');
+});
+Route::group(['prefix' => 'dashboard', 'middleware' => ['auth']], function (){
+    Route::get('/admin', [App\Http\Controllers\DashboardController::class, 'index'])->name('admin.dashboard.index');
+});
+Route::get('/admin', function () {
+    return view('admin.dashboard.index');
+
 });
 
 Route::get('/dashboard', function () {
