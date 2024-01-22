@@ -95,3 +95,8 @@
     </section>
 </div>
 @endsection
+@push("script")
+<script>
+     $('.dashboard').addClass("active");
+</script>
+@endpush

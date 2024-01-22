@@ -3,80 +3,64 @@
         <li class="sidebar-title">Menu</li>
 
         <li class="sidebar-item active ">
-            <a href="index.html" class='sidebar-link'>
+            <a href="{{route('admin.dashboard.index')}}" class='sidebar-link'>
                 <i class="bi bi-grid-fill"></i>
                 <span>Dashboard</span>
             </a>
         </li>
-
-        <li class="sidebar-item  has-sub">
-            <a href="#" class='sidebar-link'>
+        <li class="sidebar-item ">
+            <a href="{{route('home.index')}}" class='sidebar-link'>
                 <i class="bi bi-stack"></i>
-                <span>Components</span>
+                <span>Home</span>
             </a>
-
-            <ul class="submenu ">
-
-                <li class="submenu-item  ">
-                    <a href="#" class="submenu-link">Accordion</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="#" class="submenu-link">Alert</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="#" class="submenu-link">Badge</a>
-
-                </li>
-            </ul>
         </li>
-
+        <li class="sidebar-item ">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-file-person-fill"></i>
+                <span>About</span>
+            </a>
+        </li>
+        <li class="sidebar-item ">
+            <a href="{{route('activity.index')}}" class='sidebar-link'>
+                <i class="bi bi-grid-fill"></i>
+                <span>Activity</span>
+            </a>
+        </li>
+        <li class="sidebar-item ">
+            <a href="#" class='sidebar-link'>
+                <i class="bi bi-people-fill"></i>
+                <span>Team</span>
+            </a>
+        </li>
+        <li class="sidebar-item ">
+            <a href="{{route('contactus.index')}}" class='sidebar-link'>
+                <i class="bi bi-person-lines-fill"></i>
+                <span>Contack Us</span>
+            </a>
+        </li>
+       
         <li class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
-                <i class="bi bi-collection-fill"></i>
-                <span>Extra Components</span>
+                <i class="bi bi-calendar2-event-fill"></i>
+                <span>Event</span>
             </a>
 
             <ul class="submenu ">
 
                 <li class="submenu-item  ">
-                    <a href="#" class="submenu-link">Avatar</a>
+                    <a href="#" class="submenu-link">Kategori</a>
 
                 </li>
 
                 <li class="submenu-item  ">
-                    <a href="#" class="submenu-link">Comment</a>
+                    <a href="#" class="submenu-link">Nama Event</a>
 
                 </li>
             </ul>
 
         </li>
 
-        <li class="sidebar-item  has-sub">
-            <a href="#" class='sidebar-link'>
-                <i class="bi bi-grid-1x2-fill"></i>
-                <span>Layouts</span>
-            </a>
-
-            <ul class="submenu ">
-
-                <li class="submenu-item  ">
-                    <a href="#" class="submenu-link">Default Layout</a>
-
-                </li>
-
-                <li class="submenu-item  ">
-                    <a href="#" class="submenu-link">1 Column</a>
-
-                </li>
-            </ul>
-
-
-        </li>
-        <li class="sidebar-title">Menu</li>
+        <li class="sidebar-title">Menu Profile</li>
 
         <li class="sidebar-item  has-sub">
             <a href="#" class='sidebar-link'>
@@ -100,4 +84,8 @@
     </form>
 
                 </li>
-            </ul
+            </ul>
+
+        </li>
+    </ul>
+</div>

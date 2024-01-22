@@ -1,8 +1,11 @@
 <?php
 
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ActivityController;
+use App\Http\Controllers\ContactusController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,17 +17,24 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+//Landing Page
 Route::get('/', function () {
     return view('landingpage.home');
 });
-Route::group(['prefix' => 'dashboard', 'middleware' => ['auth']], function (){
-    Route::get('/admin', [App\Http\Controllers\DashboardController::class, 'index'])->name('admin.dashboard.index');
-});
-Route::get('/admin', function () {
-    return view('admin.dashboard.index');
 
+
+//Landing Page
+
+// ADMIN
+Route::get('/dashboard/home/checkSlug', [HomeController::class, 'checkSlug']) ->middleware('auth');
+Route::middleware(['auth'])->group(function () {
+    Route::get('/admin', [App\Http\Controllers\DashboardController::class, 'index'])->name('admin.dashboard.index');
+    Route::resource('/admin/home', HomeController::class);
+    Route::resource('/admin/activity', ActivityController::class);
+    Route::resource('/admin/contactus', ContactusController::class);
 });
+// ADMIN
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
